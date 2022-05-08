@@ -3,11 +3,11 @@
   position: fixed;
   bottom: 1vh;
   right: 1vh;
-  padding: 3vh;
+  padding: 2vh;
   border-radius: 100%;
   background-color: rgb(212, 212, 212);
-  width: 3vh;
-  height: 3vh;
+  width: 2vh;
+  height: 2vh;
   cursor: pointer;
 }
 
@@ -15,12 +15,12 @@
   display: none;
   position: fixed;
   bottom: 1.5vh;
-  right: 11vh;
-  padding: 3vh;
+  right: 7.5vh;
+  padding: 2vh;
   border-radius: 100%;
   background-color: rgb(212, 212, 212);
-  width: 3vh;
-  height: 3vh;
+  width: 2vh;
+  height: 2vh;
   cursor: pointer;
 }
 
