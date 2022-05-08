@@ -29,9 +29,11 @@
 @media (max-width: 740px){
 
       .section_search{
-        width: 40vh;
+        width: 35vh;
+        height: 30px;
       }
       .search{
-       width: 40vh;
+        width: 30vh;
+        height: 30px;
       }
 }

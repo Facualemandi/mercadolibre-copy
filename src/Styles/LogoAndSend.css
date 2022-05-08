@@ -23,11 +23,11 @@
 
 @media (max-width: 740px) {
     .logoHands{
-        width: 10vh;
-        height: 5vh;
+        width: 6vh;
+        height: 4vh;
         display: block;
         margin: 0.8vh;
-        margin-top: 15px;
+        margin-top: 10px;
     }
 
     .logo{
