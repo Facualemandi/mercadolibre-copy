@@ -1,0 +1,21 @@
+.ul_Perfil{
+    margin-top: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 3vh;
+}
+
+.ul_Perfil li{
+    color: #333;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.iconCart{
+    margin-top: 7px;
+}
+
+.iconMoon{
+    margin-top: 7px;
+}
