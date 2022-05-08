@@ -52,18 +52,17 @@
      .ul_Perfil{
       margin: 0;
       padding: 0;
+      width: 40px;
       margin-left: 3px;
-      margin-top: 6px;
+      margin-top: 5px;
+
      }
      .iconMoon{
        display: none;
      }
 
      .iconCart{
-       border-radius: 0px;
-       margin-top: 10px;
-       padding: 5px;
-       border-radius: 100%;
+       border-radius: 10px;
      }
 
 }
