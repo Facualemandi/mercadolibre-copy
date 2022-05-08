@@ -4,5 +4,10 @@
   box-sizing: border-box;
 }
 
+.app_div{
+   width: 100vmax;
+   background-color: #fff159;
+}
+
 
 

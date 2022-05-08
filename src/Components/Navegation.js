@@ -9,8 +9,7 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 const Navegation = () => {
   return (
     <>
-      <nav>
-
+      <nav className="navegation">
         <section className="section_container">
           <img className="logo" alt="Mercado Libre" src={logo} />
 
@@ -33,8 +32,6 @@ const Navegation = () => {
         <section>
           <DisneyPromo />
         </section>
-
-        
       </nav>
     </>
   );
