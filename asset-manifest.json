@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mercadolibre-copy/static/css/main.446cabc8.css",
+    "main.css": "/mercadolibre-copy/static/css/main.22e610a5.css",
     "main.js": "/mercadolibre-copy/static/js/main.14d11588.js",
     "static/media/logoMc.png": "/mercadolibre-copy/static/media/logoMc.1d4e13b5be71258d3507.png",
     "static/media/promodisneysub.png": "/mercadolibre-copy/static/media/promodisneysub.b82ab0574d2e330062ad.png",
     "index.html": "/mercadolibre-copy/index.html",
-    "main.446cabc8.css.map": "/mercadolibre-copy/static/css/main.446cabc8.css.map",
+    "main.22e610a5.css.map": "/mercadolibre-copy/static/css/main.22e610a5.css.map",
     "main.14d11588.js.map": "/mercadolibre-copy/static/js/main.14d11588.js.map"
   },
   "entrypoints": [
-    "static/css/main.446cabc8.css",
+    "static/css/main.22e610a5.css",
     "static/js/main.14d11588.js"
   ]
 }
