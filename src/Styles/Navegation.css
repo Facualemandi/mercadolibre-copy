@@ -4,6 +4,7 @@
 
 .logo {
   width: 15vh;
+  margin-right: 10px;
 }
 
 .section_container {
@@ -45,7 +46,9 @@
 
 }
 
-@media (max-width: 730px){
-  
+@media (max-width: 740px){
+   .section_container{
+       width: auto;
+   }
 }
 

@@ -7,7 +7,7 @@ import "../Styles/MyPerfil.css";
 const MyPerfil = () => {
   return (
     <>
-      <section className="section_perfil">
+
         <ul className="ul_Perfil">
           <li>Crea Tu Cuenta</li>
           <li>Ingresá</li>
@@ -15,7 +15,6 @@ const MyPerfil = () => {
           <FontAwesomeIcon className="iconCart" icon={faCartShopping} />
           <FontAwesomeIcon className="iconMoon" icon={faMoon} />
         </ul>
-      </section>
     </>
   );
 };

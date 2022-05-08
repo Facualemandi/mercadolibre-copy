@@ -16,5 +16,22 @@
 }
 
 @media (max-width: 1000px){
-  
+ 
+      .section_search{
+        width: 30vh;
+      }
+      .search{
+        width: 30vh;
+      }
+     
+}
+
+@media (max-width: 740px){
+
+      .section_search{
+        width: auto;
+      }
+      .search{
+       width: auto;
+      }
 }

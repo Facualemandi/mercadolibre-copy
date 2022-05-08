@@ -1,6 +1,45 @@
+.logo{
+    margin-top: 15px;
+    margin-left: 10px;
+}
 
-@media (max-width: 1000px){
-    .sectionLogoAndSend{
+.logoHands{
+    display: none;
+}
+
+.sectionLogoAndSend{
+    display: flex;
+    flex-direction: column;
+}
+
+.iconLocationAndSend{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+
+
+
+@media (max-width: 740px) {
+    .logoHands{
+        width: 10vh;
+        height: 5vh;
+        display: block;
+        margin: 0.8vh;
+        margin-top: 15px;
+    }
+
+    .logo{
         display: none;
     }
+
+    .send{
+        display: none;
+    }
+
+    .iconLocation{
+        display: none;
+    }
+
 }

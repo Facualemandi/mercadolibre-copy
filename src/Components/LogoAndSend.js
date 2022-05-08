@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../Images/logo-mercado-libre.png";
+import LogoMc from '../Images/logoMc.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import '../Styles/LogoAndSend.css'
@@ -10,8 +11,9 @@ const LogoAndSend = () => {
       <section className="sectionLogoAndSend">
 
       <img className="logo" alt="Mercado Libre" src={logo} />
+      <img className="logoHands" alt="Mercado Libre" src={LogoMc} />
 
-      <section className="section_fontawesome">
+<div className="iconLocationAndSend">
         <FontAwesomeIcon
           className="iconLocation"
           icon={faLocationDot}
@@ -20,9 +22,10 @@ const LogoAndSend = () => {
           <p>Enviar a</p>
           <p>Capital Federal</p>
         </div>
+</div>
        </section>
 
-      </section>
+
     </>
   );
 };
