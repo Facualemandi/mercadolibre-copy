@@ -49,6 +49,8 @@
 @media (max-width: 740px){
    .section_container{
        width: auto;
+       padding: 0px;
+       margin: 0px;
    }
 }
 

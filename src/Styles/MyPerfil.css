@@ -30,7 +30,6 @@
   }
 
   .iconCart {
-    padding: 1vh;
     border-radius: 100%;
     background-color: rgb(246, 246, 127);
     box-shadow: 1px 1px 2px 1px rgb(193, 193, 31);
@@ -62,9 +61,15 @@
      }
 
      .iconCart{
+      width: 25px;
+      height: 25px;
+      padding-top: 5px;
+      padding-left: 3px; ;
+      margin: 0;
       box-shadow:none;
       color: rgb(144, 144, 144);
       background-color: #fff159;
+  
      }
 
 }

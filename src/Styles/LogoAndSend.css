@@ -23,11 +23,21 @@
 
 @media (max-width: 740px) {
     .logoHands{
-        width: 6vh;
+        width: 7vh;
         height: 4vh;
+        margin-top: 3px;
         display: block;
-        margin: 0.8vh;
-        margin-top: 10px;
+
+    }
+    .iconLocationAndSend{
+        display: none;
+    }
+
+    .sectionLogoAndSend{
+
+        margin: 0;
+        padding: 0;
+        margin-top: 5px;
     }
 
     .logo{
