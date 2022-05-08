@@ -47,3 +47,9 @@
     margin-left: 2vh;
   }
 }
+
+@media (max-width: 740px){
+     .ul_Perfil{
+      margin: 0;
+     }
+}

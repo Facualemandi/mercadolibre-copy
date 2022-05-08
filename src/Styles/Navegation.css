@@ -1,8 +1,5 @@
 .navegation {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  width: 135vh;
+  background-color: #fff159;
 }
 
 .logo {
@@ -10,10 +7,11 @@
 }
 
 .section_container {
-  width: 23vh;
+  width: 100vmax;
   padding: 2vh;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  background-color: #fff159;
 }
 
 .section_container .section_fontawesome {
@@ -38,22 +36,16 @@
   font-family: sans-serif;
 }
 
-@media (max-width: 1400px) {
-  .navegation {
-    width: 95vh;
-  }
-  .send {
-    display: none;
-  }
-
-  .iconLocation {
-    display: none;
-  }
-
-  .section_container {
+@media (max-width: 1000px){
+.section_container{
+    width: 70vmax;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20vh;
-  }
+    margin: auto;
 }
+
+}
+
+@media (max-width: 730px){
+  
+}
+

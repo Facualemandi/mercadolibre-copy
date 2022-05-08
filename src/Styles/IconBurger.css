@@ -1,10 +1,18 @@
 .icon_burger_open{
+    display: none;
     position: fixed;
     bottom: 1vh;
     right: 1vh;
     padding: 3vh;
     border-radius: 100%;
     background-color: rgb(212, 212, 212);
-    width: 5vh;
-    height: 5vh;
+    width: 3vh;
+    height: 3vh;
+    cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+    .icon_burger_open{
+        display: block;
+    }
 }

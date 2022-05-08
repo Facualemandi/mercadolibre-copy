@@ -4,9 +4,8 @@
   box-sizing: border-box;
 }
 
-.app_div{
-   width: 100vmax;
-   background-color: #fff159;
+.div_icon{
+   display: none;
 }
 
 

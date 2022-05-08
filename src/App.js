@@ -6,13 +6,11 @@ import Navegation from "./Components/Navegation";
 function App() {
   return (
   <>
-      <div className='div_icon'>
-        <IconBurger/>
-      </div>
+          <IconBurger/>
 
-      <div className="app_div">
+
          <Navegation/>
-      </div>
+
 
     
   </>
