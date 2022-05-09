@@ -69,3 +69,12 @@
   font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
   font-size: 12px;
 }
+
+
+@media (min-width:741px){
+  .totalProductosVendidos{
+    width: 150vh;
+    margin: auto;
+  }
+
+}
