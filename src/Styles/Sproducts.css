@@ -72,56 +72,70 @@
       font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
       font-size: 12px;
     }
-}    
+}  
 
-.Products_section_container section{
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    height: 170px;
-    box-shadow: 1px 1px 5px 1px rgb(207, 207, 207);
-    border-radius: 7px;
+@media (min-width:741px){
+    .cheap{
+        width: 150vh;
+        margin: 1.5vh auto;
+        padding-left: 2vh;
+        font-family: sans-serif;
+        color: rgb(59, 59, 59);
+    }
+    
+    .Products_section_container section{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        height: 170px;
+        box-shadow: 1px 1px 5px 1px rgb(207, 207, 207);
+        border-radius: 7px;
+    }
+    
+    .headphones {
+        width: 120px;
+        height: 120px;
+        border-radius: 5px;
+        padding-top: 3px;
+        padding-left: 3px ;
+      }
+    
+      .Products_section_container {
+        display: flex;
+        width: 150vh;
+        margin: auto;
+      }
+    
+      .products_description{
+          display: flex;
+          flex-direction: column;
+      }
+    
+    
+      .Products_section_container p {
+        font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+        font-size: 22px;
+        margin: 3px;
+      }
+    
+      .price {
+        margin: 3px;
+        font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+        font-size: 20px;
+      }
+      
+      .free {
+        margin: 3px;
+        color: green;
+        font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+        font-size: 12px;
+      }
+ 
 }
 
-.headphones {
-    width: 120px;
-    height: 120px;
-    border-radius: 5px;
-    padding-top: 3px;
-    padding-left: 3px ;
-  }
-
-  .Products_section_container {
-    display: flex;
-    width: 150vh;
-    margin: auto;
-  }
-
-  .products_description{
-      display: flex;
-      flex-direction: column;
-  }
 
 
-  .Products_section_container p {
-    font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 22px;
-    margin: 3px;
-  }
-
-  .price {
-    margin: 3px;
-    font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 20px;
-  }
-  
-  .free {
-    margin: 3px;
-    color: green;
-    font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 12px;
-  }
 
 
 
