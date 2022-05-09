@@ -4,29 +4,26 @@ import DisneyPromo from "./DisneyPromo";
 import "../Styles/Navegation.css";
 import LogoAndSend from "./LogoAndSend";
 
-
-
 const Navegation = () => {
   return (
     <>
-      <nav className="navegation">
-        <section className="section_container">
-          
-          <section>
-            <LogoAndSend/>
-          </section>
+      <div className="asd">
+        <section className="navegation">
+          <section className="section_container">
+            <section>
+              <LogoAndSend />
+            </section>
 
-          <section>
-            <Search />
-          </section>
+            <section>
+              <Search />
+            </section>
 
-          <section>
-            <DisneyPromo />
+            <section>
+              <DisneyPromo />
+            </section>
           </section>
-          
         </section>
-
-      </nav>
+      </div>
     </>
   );
 };

@@ -3,6 +3,7 @@ import "../Styles/Search.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import Categories from "./Categories";
+import "../Styles/Search.css";
 
 const Search = () => {
   return (

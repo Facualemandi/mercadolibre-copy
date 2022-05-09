@@ -1,0 +1,74 @@
+.TotalContainer_Products{
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+
+.headphones {
+  width: 95px;
+  height: 95px;
+  border-radius: 5px;
+  padding-top: 3px;
+  padding-left: 3px ;
+}
+
+.cheap{
+    font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    color: rgb(93, 93, 93);
+}
+
+
+.cheap.is-active{
+    color: rgb(255, 255, 255);
+}
+
+.Products_section_container {
+  max-height: 130px;
+  display: flex;
+  overflow-x: auto;
+ 
+}
+
+.Products_section_container section {
+  box-shadow: 1px 1px 3px 1px rgb(141, 141, 141);
+  min-width: 275px;
+  height: 100px;
+}
+
+.section_auri{
+  display: flex;
+  border-radius: 3px;
+  height: 100%;
+  margin: 1vh;
+  
+}
+.Products_section_container::-webkit-scrollbar {
+  width: 0;
+}
+
+.products_description {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Products_section_container p {
+  font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  margin: 3px;
+}
+
+.price {
+  margin: 3px;
+  font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+}
+
+.free {
+  margin: 3px;
+  color: green;
+  font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+}

@@ -7,14 +7,13 @@ import "../Styles/MyPerfil.css";
 const MyPerfil = () => {
   return (
     <>
-
-        <ul className="ul_Perfil">
-          <li>Crea Tu Cuenta</li>
-          <li>Ingresá</li>
-          <li>Mis Compras</li>
-          <FontAwesomeIcon className="iconCart" icon={faCartShopping} />
-          <FontAwesomeIcon className="iconMoon" icon={faMoon} />
-        </ul>
+      <ul className="ul_Perfil">
+        <li>Crea Tu Cuenta</li>
+        <li>Ingresá</li>
+        <li>Mis Compras</li>
+        <FontAwesomeIcon className="iconCart" icon={faCartShopping} />
+        <FontAwesomeIcon className="iconMoon" icon={faMoon} />
+      </ul>
     </>
   );
 };

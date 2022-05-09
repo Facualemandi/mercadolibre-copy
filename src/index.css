@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-.div_icon{
-   display: none;
+.isActive{
+  background-color: rgb(59, 59, 59);
 }
-
-
-
