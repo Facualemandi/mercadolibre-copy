@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/mercadolibre-copy/static/css/main.5e8e0582.css",
-    "main.js": "/mercadolibre-copy/static/js/main.e6e3233f.js",
+    "main.css": "/mercadolibre-copy/static/css/main.4a33ed97.css",
+    "main.js": "/mercadolibre-copy/static/js/main.51430258.js",
     "static/media/logoMc.png": "/mercadolibre-copy/static/media/logoMc.1d4e13b5be71258d3507.png",
     "static/media/promodisneysub.png": "/mercadolibre-copy/static/media/promodisneysub.b82ab0574d2e330062ad.png",
+    "static/media/productosVendidos1.png": "/mercadolibre-copy/static/media/productosVendidos1.6d248dd1fa7117265b58.png",
     "static/media/threePrincipalProduct.png": "/mercadolibre-copy/static/media/threePrincipalProduct.4088c1b996c42b428df7.png",
+    "static/media/productosVendidos5.png": "/mercadolibre-copy/static/media/productosVendidos5.1957ce0f87455251c2f3.png",
+    "static/media/productosVendidos3.png": "/mercadolibre-copy/static/media/productosVendidos3.9924a6e98d97d0b9caea.png",
     "static/media/fivePrincipalProduct.png": "/mercadolibre-copy/static/media/fivePrincipalProduct.a7837a8da66fec6906d8.png",
     "static/media/principalAuriculares.png": "/mercadolibre-copy/static/media/principalAuriculares.e0bf7caff311444a975f.png",
     "static/media/secondPrincipalProduct.png": "/mercadolibre-copy/static/media/secondPrincipalProduct.26ee7567ddde1ccdbfed.png",
     "index.html": "/mercadolibre-copy/index.html",
-    "main.5e8e0582.css.map": "/mercadolibre-copy/static/css/main.5e8e0582.css.map",
-    "main.e6e3233f.js.map": "/mercadolibre-copy/static/js/main.e6e3233f.js.map"
+    "main.4a33ed97.css.map": "/mercadolibre-copy/static/css/main.4a33ed97.css.map",
+    "main.51430258.js.map": "/mercadolibre-copy/static/js/main.51430258.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e8e0582.css",
-    "static/js/main.e6e3233f.js"
+    "static/css/main.4a33ed97.css",
+    "static/js/main.51430258.js"
   ]
 }
