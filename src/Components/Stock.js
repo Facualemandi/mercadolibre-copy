@@ -1,14 +1,14 @@
 import React from 'react'
 import '../Styles/Stock.css'
 
-const Stock = () => {
+const Stock = ({onBlack}) => {
   return (
-       <section className='stock_container'>
-            <p className='text_stock'>Stock Disponible</p>
+       <section className={`stock_container ${onBlack && 'stockBlack'}`}>
+            <p className={`text_stock ${onBlack && 'text_stock_active'}`}>Stock Disponible</p>
 
             <div className='containerInput'>
                 <p>Cantidad: <b>3</b></p>
-              <input type={'number'} placeholder='(29 Disponibles)'/>
+              <input  type={'number'} placeholder='(29 Disponibles)'/>
             </div>
 
             <div className='buttomAdd'>

@@ -2,6 +2,24 @@
   background-color: white;
   padding: 2vh;
 }
+
+.text_stock_active{
+ color: white;
+}
+
+.stockBlack{
+  background-color: rgb(32, 32, 32);
+
+}
+
+.addBlack{
+  background-color: #d2080826;
+  border: 3px solid red;
+}
+
+
+
+
 .containerInput {
   display: flex;
   align-items: center;
@@ -9,11 +27,13 @@
   margin: 1vh;
   border-radius: 6px;
   background-color: #ebebeb;
+
 }
+
 
 .containerInput p {
   display: flex;
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: sans-serif;
 }
 
@@ -25,7 +45,6 @@
 }
 
 .stock_container p {
-  color: black;
   font-size: 16px;
   font-family: sans-serif;
 }
@@ -52,8 +71,38 @@
 .stock_container .buttomAdd button:nth-child(1) {
   background-color: #3483fa;
   color: white;
+  cursor: pointer;
 }
 .stock_container .buttomAdd button:nth-child(2) {
   background-color: #4189E626;
   color: #3483fa;
+  cursor: pointer;
 }
+
+
+.input_stock{
+  color: black;
+}
+
+
+
+@media (min-width: 741px){
+  .stock_container{
+      width: 145vh;
+      border-radius: 3px;
+      box-shadow: 1px 1px 3px 1px rgb(208, 208, 208);
+      margin: auto;
+  }
+
+  .stock_container .buttomAdd button:nth-child(1) {
+     width: 100vh;
+
+  }
+  .stock_container .buttomAdd button:nth-child(2) {
+     width: 100vh;
+
+  }
+}
+
+
+

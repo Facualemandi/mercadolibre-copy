@@ -1,0 +1,71 @@
+.auriculares {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  padding-top: 3px;
+  padding-left: 3px ;
+}
+
+.cheap{
+    font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    color: rgb(93, 93, 93);
+}
+
+
+.cheap.is-active{
+    color: rgb(255, 255, 255);
+}
+
+.totalProductosVendidos {
+  max-height: 400px;
+  display: flex;
+  overflow-x: auto;
+ 
+}
+
+.totalProductosVendidos section {
+  box-shadow: 1px 1px 3px 1px rgb(175, 175, 175);
+  min-width: 200px;
+  height: 370px;
+}
+
+.auricularesMasVendidos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3px;
+  height: auto;
+  margin: 1vh;
+  background-color: white;
+}
+
+.totalProductosVendidos::-webkit-scrollbar {
+  width: 0;
+}
+
+.products_description {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.totalProductosVendidos p {
+  font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  margin: 3px;
+}
+
+.price {
+  margin: 3px;
+  font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+}
+
+.free {
+  margin: 3px;
+  color: green;
+  font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+}

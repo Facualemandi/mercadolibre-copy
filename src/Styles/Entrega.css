@@ -48,3 +48,12 @@
 a{
     font-size: 16px;
 }
+
+@media (min-width: 741px){
+    .container_free{
+        width: 145vh;
+        border-radius: 3px;
+        box-shadow: 1px 1px 3px 1px rgb(208, 208, 208);
+        margin: auto;
+    }
+}

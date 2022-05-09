@@ -4,6 +4,7 @@ import IconBurger from "./Components/IconBurger";
 import MenuLateral from "./Components/MenuLateral";
 import Navegation from "./Components/Navegation";
 import PrincipalProduct from "./Components/PrincipalProduct";
+import ProductosVendidos from "./Components/ProductosVendidos";
 import SProducts from "./Components/SProducts";
 import Stock from "./Components/Stock";
 
@@ -74,7 +75,8 @@ function App() {
           onBlack={onBlack}
         />
         <Entrega onBlack={onBlack}/>
-        <Stock/>
+        <Stock onBlack={onBlack}/>
+        <ProductosVendidos/>
       </main>
     </>
   );
