@@ -35,35 +35,42 @@
 }
 
 .principalProduct{
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
     display: flex;
     margin: auto;
 }
 
 .secondProduct{
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
     display: flex;
     margin: auto;  
 }
 .threeProduct{
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
     display: flex;
     margin: auto;  
 }
 .fourProduct{
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
     display: flex;
     margin: auto;  
 }
 .fiveProduct{
-    width: 200px;
-    height: 200px;
+     width: 280px;
+    height: 280px;
     display: flex;
     margin: auto;  
+}
+
+.container_img_Principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 
@@ -124,9 +131,6 @@
     border: 1px solid rgb(200, 200, 200);
     background-color: rgb(210, 210, 210);
     border-radius: 100%;
-    position: relative;
     cursor: pointer;
     color: grey;
-    left: 300px;
-    bottom: 120px;
 }

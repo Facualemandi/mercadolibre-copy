@@ -37,7 +37,7 @@ const PrincipalProduct = ({onChangeProduct, productTwo, productOne, productThree
           </div>
 
       <section>
-          <div>
+          <div className='container_img_Principal'>
           {productOne && <img className='principalProduct' src={principalAuriculares} alt='Auricualres Hyperx Orbit S 7.1'/>}
           {productTwo && <img className='secondProduct' src={secondPrincipalProduct} alt='Auricualres Hyperx Orbit S 7.1'/>}
           {productThree && <img className='secondProduct' src={threePrincipalProduct} alt='Auricualres Hyperx Orbit S 7.1'/>}
