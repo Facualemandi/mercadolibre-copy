@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/mercadolibre-copy/static/css/main.21a35957.css",
-    "main.js": "/mercadolibre-copy/static/js/main.74883942.js",
+    "main.css": "/mercadolibre-copy/static/css/main.339d6188.css",
+    "main.js": "/mercadolibre-copy/static/js/main.b4b2c81a.js",
     "static/media/logoMc.png": "/mercadolibre-copy/static/media/logoMc.1d4e13b5be71258d3507.png",
     "static/media/promodisneysub.png": "/mercadolibre-copy/static/media/promodisneysub.b82ab0574d2e330062ad.png",
+    "static/media/principalAuriculares.png": "/mercadolibre-copy/static/media/principalAuriculares.e0bf7caff311444a975f.png",
     "index.html": "/mercadolibre-copy/index.html",
-    "main.21a35957.css.map": "/mercadolibre-copy/static/css/main.21a35957.css.map",
-    "main.74883942.js.map": "/mercadolibre-copy/static/js/main.74883942.js.map"
+    "main.339d6188.css.map": "/mercadolibre-copy/static/css/main.339d6188.css.map",
+    "main.b4b2c81a.js.map": "/mercadolibre-copy/static/js/main.b4b2c81a.js.map"
   },
   "entrypoints": [
-    "static/css/main.21a35957.css",
-    "static/js/main.74883942.js"
+    "static/css/main.339d6188.css",
+    "static/js/main.b4b2c81a.js"
   ]
 }
