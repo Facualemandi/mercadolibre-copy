@@ -2,11 +2,16 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import { faStarHalfStroke } from '@fortawesome/free-solid-svg-icons'
+import { faRightToBracket } from '@fortawesome/free-solid-svg-icons'
 import '../Styles/PrincipalProduct.css'
 import principalAuriculares from '../Images/principalAuriculares.png'
+import secondPrincipalProduct from '../Images/secondPrincipalProduct.png'
+import threePrincipalProduct from '../Images/threePrincipalProduct.png'
+import fourPrincipalProduct from '../Images/fourPrincipalProduct.png'
+import fivePrincipalProduct from '../Images/fivePrincipalProduct.png'
 
 
-const PrincipalProduct = () => {
+const PrincipalProduct = ({onChangeProduct, productTwo, productOne, productThree,productFour, productFive}) => {
   return (
       <>
 
@@ -32,7 +37,14 @@ const PrincipalProduct = () => {
           </div>
 
       <section>
-          <img className='principalProduct' src={principalAuriculares} alt='Auricualres Hyperx Orbit S 7.1'/>
+          <div>
+          {productOne && <img className='principalProduct' src={principalAuriculares} alt='Auricualres Hyperx Orbit S 7.1'/>}
+          {productTwo && <img className='secondProduct' src={secondPrincipalProduct} alt='Auricualres Hyperx Orbit S 7.1'/>}
+          {productThree && <img className='secondProduct' src={threePrincipalProduct} alt='Auricualres Hyperx Orbit S 7.1'/>}
+          {productFour && <img className='secondProduct' src={fourPrincipalProduct} alt='Auricualres Hyperx Orbit S 7.1'/>}
+          {productFive && <img className='secondProduct' src={fivePrincipalProduct} alt='Auricualres Hyperx Orbit S 7.1'/>}
+             <p className='changePrincipalProduct' onClick={onChangeProduct}> <FontAwesomeIcon icon={faRightToBracket}/> </p>
+          </div>
 
           <div className='container_colorAndimg'>
               <div className='color_black'>
