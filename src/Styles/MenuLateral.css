@@ -1,0 +1,31 @@
+.container_menu{
+    position: fixed;
+    width: 200px;
+    height: 100vmax;
+    background-color: rgb(255, 255, 255);
+    left: -200px;
+    transition: 0.5s;
+}
+
+.container_menu.is-active{
+    left: 0px;
+    transition: 0.5s;
+}
+
+
+.container_menu ul li {
+    align-items: center;
+    padding: 15px 10px ;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.menuBlack{
+    background-color: black;
+    color: white;
+}
+
+.menuBlack li{
+    color: rgb(255, 255, 255);
+}

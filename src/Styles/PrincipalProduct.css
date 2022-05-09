@@ -1,8 +1,23 @@
 .PrincipalProduct{
     background-color: white;
     padding: 1.5vh;
-    border-radius: 10px;
+    border-radius: 3px;
 }
+.principalProdcut-active{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    box-shadow: 1px 1px 2px 1px white ;
+}
+
+.color_black.is-active{
+    color: black;
+}
+
+.a-is-active{
+    color: white;
+}
+
+
 
 .newSold{
      display: flex;
@@ -75,11 +90,6 @@
 
 
 
-
-
-
-
-
 .color_black{
     display: flex;
     flex-direction: column;
@@ -133,4 +143,5 @@
     border-radius: 100%;
     cursor: pointer;
     color: grey;
+    margin-left: 3px;
 }

@@ -11,11 +11,11 @@ import fourPrincipalProduct from '../Images/fourPrincipalProduct.png'
 import fivePrincipalProduct from '../Images/fivePrincipalProduct.png'
 
 
-const PrincipalProduct = ({onChangeProduct, productTwo, productOne, productThree,productFour, productFive}) => {
+const PrincipalProduct = ({onChangeProduct, productTwo, productOne, productThree,productFour, productFive, onBlack}) => {
   return (
       <>
 
-      <section className='PrincipalProduct'>
+      <section className={`PrincipalProduct ${onBlack && 'principalProdcut-active'}`}>
           <div className='newSold'>
               <span>Nuevo</span>
                 <hr/>
@@ -47,7 +47,7 @@ const PrincipalProduct = ({onChangeProduct, productTwo, productOne, productThree
           </div>
 
           <div className='container_colorAndimg'>
-              <div className='color_black'>
+              <div className={`color_black ${onBlack && 'is-active'}`}>
                   <span>Color :</span>
                   <span> Negro</span>
               </div>
@@ -59,7 +59,7 @@ const PrincipalProduct = ({onChangeProduct, productTwo, productOne, productThree
      <section className='PrincipalProduct_price'>
             <span>$39.259</span>
            <span>en 12x $ 5.567</span>
-           <a href='#'>Ver los medios de pago</a>
+           <a href='#' className={`${onBlack && 'a-is-active'}`}>Ver los medios de pago</a>
      </section>
 
 

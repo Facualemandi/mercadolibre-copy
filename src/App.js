@@ -1,11 +1,14 @@
 import { useState } from "react";
 import IconBurger from "./Components/IconBurger";
+import MenuLateral from "./Components/MenuLateral";
 import Navegation from "./Components/Navegation";
 import PrincipalProduct from "./Components/PrincipalProduct";
 import SProducts from "./Components/SProducts";
 
 function App() {
   const [onBlack, setOnBlack] = useState(false);
+
+  const [menu, setMenu] = useState(false)
 
   const [productOne, setProductOne] = useState(true);
   const [productTwo, setProductTwo] = useState(false);
@@ -28,23 +31,33 @@ function App() {
     }
     if (productThree) {
       setProductThree(false);
-      setProductFour(true)
+      setProductFour(true);
     }
     if (productFour) {
-      setProductFour(false)
-      setProductFive(true)
+      setProductFour(false);
+      setProductFive(true);
     }
     if (productFive) {
-      setProductFive(false)
-      setProductOne(true)
+      setProductFive(false);
+      setProductOne(true);
     }
   };
+
+  const openMenu = () => {
+    menu ? setMenu(false) : setMenu(true);
+    
+  }
 
   return (
     <>
       <nav>
-        <IconBurger changeOnBlack={changeOnBlack} onBlack={onBlack} />
+        <IconBurger
+          changeOnBlack={changeOnBlack}
+          openMenu={openMenu}
+          onBlack={onBlack}
+        />
         <Navegation />
+        <MenuLateral menu={menu} onBlack={onBlack}/>
       </nav>
 
       <main className={`${onBlack && "isActive"}`}>
@@ -56,6 +69,7 @@ function App() {
           productThree={productThree}
           productFour={productFour}
           productFive={productFive}
+          onBlack={onBlack}
         />
       </main>
     </>
