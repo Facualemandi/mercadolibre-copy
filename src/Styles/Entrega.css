@@ -1,0 +1,41 @@
+.container_free{
+    padding: 2vh;
+    font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+    background-color: white;
+}
+
+p{
+    color: #00A650;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.envioGratis{
+    display: flex;
+}
+.devolucionGratis{
+    display: flex;
+    margin-top: 2vh;
+}
+
+.faCarSide{
+    color: #00A650;
+}
+
+.faLeftLong{
+    color: #00A650;
+}
+
+.totalDevoluciones{
+    display: flex;
+    flex-direction: column;
+}
+
+.devolucion{
+    color: grey;
+    font-size: 14px;
+}
+
+a{
+    font-size: 16px;
+}

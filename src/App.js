@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Entrega from "./Components/Entrega";
 import IconBurger from "./Components/IconBurger";
 import MenuLateral from "./Components/MenuLateral";
 import Navegation from "./Components/Navegation";
@@ -71,6 +72,7 @@ function App() {
           productFive={productFive}
           onBlack={onBlack}
         />
+        <Entrega/>
       </main>
     </>
   );

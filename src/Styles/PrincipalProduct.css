@@ -145,3 +145,55 @@
     color: grey;
     margin-left: 3px;
 }
+
+
+
+
+
+@media (min-width: 741px){
+    .PrincipalProduct{
+        width: 145vh;
+        margin: 2vh auto;
+        box-shadow: 1px 1px 5px 1px rgb(216, 216, 216);
+    }
+
+
+    .principalProduct{
+        width: 280px;
+        height: 280px;
+        display: flex;
+        margin: auto;
+    }
+    
+    .secondProduct{
+        width: 450px;
+        height: 450px;
+        display: flex;
+        margin: auto;  
+    }
+    .threeProduct{
+        width: 450px;
+        height: 450px;
+        display: flex;
+        margin: auto;  
+    }
+    .fourProduct{
+        width: 450px;
+        height: 450px;
+        display: flex;
+        margin: auto;  
+    }
+    .fiveProduct{
+         width: 450px;
+        height: 450px;
+        display: flex;
+        margin: auto;  
+    }
+    
+    .container_img_Principal{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+}
