@@ -4,15 +4,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCarSide } from "@fortawesome/free-solid-svg-icons";
 import { faLeftLong } from "@fortawesome/free-solid-svg-icons";
 
-const Entrega = () => {
+const Entrega = ({onBlack}) => {
   return (
     <>
-      <section className="container_free">
+      <section className={`container_free ${onBlack && 'entregaOnBlack'} `}>
         <section className="envioGratis">
           <FontAwesomeIcon className="faCarSide" icon={faCarSide} />
           <div>
             <p> Llegara gratis mañana </p>
-            <a href="#"> Ver más formas de entrga</a>
+            <a href="#" className={`${onBlack && 'devolucionesActiv'}`}> Ver más formas de entrga</a>
           </div>
         </section>
 
@@ -21,7 +21,7 @@ const Entrega = () => {
             <div className="totalDevoluciones">
                <p> Devolución de 30 días </p>
                <span className="devolucion"> Tenés 30 días desde que lo recibís </span>
-               <a href="#"> Conoce más</a>
+               <a  href="#" className={`${onBlack && 'devolucionesActiv'}`}> Conoce más</a>
             </div>
         </section>
       </section>

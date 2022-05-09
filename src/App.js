@@ -5,6 +5,7 @@ import MenuLateral from "./Components/MenuLateral";
 import Navegation from "./Components/Navegation";
 import PrincipalProduct from "./Components/PrincipalProduct";
 import SProducts from "./Components/SProducts";
+import Stock from "./Components/Stock";
 
 function App() {
   const [onBlack, setOnBlack] = useState(false);
@@ -72,7 +73,8 @@ function App() {
           productFive={productFive}
           onBlack={onBlack}
         />
-        <Entrega/>
+        <Entrega onBlack={onBlack}/>
+        <Stock/>
       </main>
     </>
   );

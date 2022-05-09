@@ -12,6 +12,9 @@
     transition: 0.5s;
 }
 
+.devolucionesActiv{
+ color: white;
+}
 
 .container_menu ul li {
     align-items: center;
@@ -22,7 +25,7 @@
 }
 
 .menuBlack{
-    background-color: black;
+    background-color: rgb(23, 23, 23);
     color: white;
 }
 

@@ -1,0 +1,59 @@
+.stock_container {
+  background-color: white;
+  padding: 2vh;
+}
+.containerInput {
+  display: flex;
+  align-items: center;
+  padding: 1vh;
+  margin: 1vh;
+  border-radius: 6px;
+  background-color: #ebebeb;
+}
+
+.containerInput p {
+  display: flex;
+  color: white;
+  font-family: sans-serif;
+}
+
+.containerInput input {
+  height: 30px;
+  background-color: #ebebeb;
+  border: none;
+  text-align: end;
+}
+
+.stock_container p {
+  color: black;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.text_stock {
+  margin-left: 1vh;
+  margin-bottom: 4vh;
+}
+
+.stock_container .buttomAdd button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  width: 40vh;
+  margin: 2vh auto;
+  margin-top: 3vh;
+  padding: 2vh;
+  border-radius: 5px;
+  border: none;
+}
+
+.stock_container .buttomAdd button:nth-child(1) {
+  background-color: #3483fa;
+  color: white;
+}
+.stock_container .buttomAdd button:nth-child(2) {
+  background-color: #4189E626;
+  color: #3483fa;
+}
