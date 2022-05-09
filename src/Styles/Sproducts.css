@@ -1,6 +1,6 @@
 .TotalContainer_Products{
     background-color: rgb(32, 32, 32);
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 @media (max-width:740px){
@@ -32,7 +32,7 @@
     }
     
     .Products_section_container section {
-      box-shadow: 1px 1px 3px 1px rgb(141, 141, 141);
+      box-shadow: 1px 1px 3px 1px rgb(175, 175, 175);
       min-width: 275px;
       height: 100px;
     }
@@ -42,6 +42,7 @@
       border-radius: 3px;
       height: 100%;
       margin: 1vh;
+      background-color: white;
     }
 
     .Products_section_container::-webkit-scrollbar {

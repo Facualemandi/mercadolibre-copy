@@ -1,0 +1,84 @@
+.PrincipalProduct{
+    background-color: white;
+    padding: 1.5vh;
+    border-radius: 10px;
+}
+
+.newSold{
+     display: flex;
+     color: #75757e;
+     font-size: 12px;
+     font-family: sans-serif;
+     margin: 1px;
+}
+
+.newSold span{
+    margin: 3px;
+}
+
+.description_principal_product{
+    font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    margin: 3px;
+}
+
+.icon_star{
+    width: 10px;
+    height: 10px;
+    color: blue;
+}
+
+.icon_container span:nth-child(2){
+    font-size: 12px;
+    font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+    color: rgb(132, 132, 132);
+}
+
+.principalProduct{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    margin: auto;
+}
+
+.color_black{
+    display: flex;
+    flex-direction: column;
+    font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+}
+
+.container_colorAndimg{
+    border-radius: 10px;
+    background-color: rgb(237, 237, 237);
+    width: 45vh;
+    margin: 2vh auto;
+    padding: 2vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.shortProduct_principal{
+    width: 35px;
+    height: 35px;
+}
+
+.PrincipalProduct_price{
+    display: flex;
+    flex-direction: column;
+    margin: 1vh;
+}
+
+.PrincipalProduct_price span:nth-child(1){
+    font-size: 32px;
+    font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+}
+.PrincipalProduct_price span:nth-child(2){
+    font-size: 18px;
+    font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+}
+.PrincipalProduct_price a{
+    font-size: 14px;
+    font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+}

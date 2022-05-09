@@ -1,6 +1,7 @@
 import { useState } from "react";
 import IconBurger from "./Components/IconBurger";
 import Navegation from "./Components/Navegation";
+import PrincipalProduct from "./Components/PrincipalProduct";
 import SProducts from "./Components/SProducts";
 
 function App() {
@@ -22,6 +23,7 @@ const changeOnBlack = () => {
     
        <main className={`${onBlack && 'isActive'}`}>
                <SProducts onBlack={onBlack}/>
+               <PrincipalProduct/>
        </main>
     </>
   );
