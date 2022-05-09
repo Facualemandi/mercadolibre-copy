@@ -14,7 +14,7 @@ const SProducts = ({onBlack}) => {
 
       <p className={`cheap ${onBlack && 'is-active'}`}> Productos Similares más baratos </p> 
 
-<section className="Products_section_container">
+    <section className="Products_section_container">
 
       <section className="section_auri">
         <img className="headphones" src={auri1} alt="Headphones Sony"/>

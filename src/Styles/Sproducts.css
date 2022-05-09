@@ -3,72 +3,130 @@
     color: white;
 }
 
+@media (max-width:740px){
+    .headphones {
+      width: 95px;
+      height: 95px;
+      border-radius: 5px;
+      padding-top: 3px;
+      padding-left: 3px ;
+    }
+    
+    .cheap{
+        font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+        font-size: 16px;
+        padding: 10px;
+        color: rgb(93, 93, 93);
+    }
+    
+    
+    .cheap.is-active{
+        color: rgb(255, 255, 255);
+    }
+    
+    .Products_section_container {
+      max-height: 130px;
+      display: flex;
+      overflow-x: auto;
+     
+    }
+    
+    .Products_section_container section {
+      box-shadow: 1px 1px 3px 1px rgb(141, 141, 141);
+      min-width: 275px;
+      height: 100px;
+    }
+    
+    .section_auri{
+      display: flex;
+      border-radius: 3px;
+      height: 100%;
+      margin: 1vh;
+    }
+
+    .Products_section_container::-webkit-scrollbar {
+      width: 0;
+    }
+    
+    .products_description {
+      margin-left: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .Products_section_container p {
+      font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+      font-size: 16px;
+      margin: 3px;
+    }
+    
+    .price {
+      margin: 3px;
+      font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+      font-size: 20px;
+    }
+    
+    .free {
+      margin: 3px;
+      color: green;
+      font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+      font-size: 12px;
+    }
+}    
+
+.Products_section_container section{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    box-shadow: 1px 1px 5px 1px rgb(207, 207, 207);
+    border-radius: 7px;
+}
 
 .headphones {
-  width: 95px;
-  height: 95px;
-  border-radius: 5px;
-  padding-top: 3px;
-  padding-left: 3px ;
-}
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-left: 3px ;
+  }
 
-.cheap{
+  .Products_section_container {
+    display: flex;
+    width: 150vh;
+    margin: auto;
+  }
+
+  .products_description{
+      display: flex;
+      flex-direction: column;
+  }
+
+
+  .Products_section_container p {
     font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 16px;
-    padding: 10px;
-    color: rgb(93, 93, 93);
-}
+    font-size: 22px;
+    margin: 3px;
+  }
 
-
-.cheap.is-active{
-    color: rgb(255, 255, 255);
-}
-
-.Products_section_container {
-  max-height: 130px;
-  display: flex;
-  overflow-x: auto;
- 
-}
-
-.Products_section_container section {
-  box-shadow: 1px 1px 3px 1px rgb(141, 141, 141);
-  min-width: 275px;
-  height: 100px;
-}
-
-.section_auri{
-  display: flex;
-  border-radius: 3px;
-  height: 100%;
-  margin: 1vh;
+  .price {
+    margin: 3px;
+    font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 20px;
+  }
   
-}
-.Products_section_container::-webkit-scrollbar {
-  width: 0;
-}
+  .free {
+    margin: 3px;
+    color: green;
+    font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 12px;
+  }
 
-.products_description {
-  margin-left: 10px;
-  display: flex;
-  flex-direction: column;
-}
 
-.Products_section_container p {
-  font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 16px;
-  margin: 3px;
-}
 
-.price {
-  margin: 3px;
-  font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 20px;
-}
+  
 
-.free {
-  margin: 3px;
-  color: green;
-  font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 12px;
-}
+
+
+
