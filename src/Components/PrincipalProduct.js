@@ -1,4 +1,5 @@
 import React from "react";
+import AsideDesktop from "./AsideDesktop";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { faStarHalfStroke } from "@fortawesome/free-solid-svg-icons";
@@ -115,6 +116,9 @@ const PrincipalProduct = ({
             Ver los medios de pago
           </a>
         </section>
+
+       
+       <AsideDesktop/>
 
         
       </section>

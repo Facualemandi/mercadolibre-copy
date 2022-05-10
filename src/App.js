@@ -11,7 +11,7 @@ import Stock from "./Components/Stock";
 function App() {
   const [onBlack, setOnBlack] = useState(false);
 
-  const [menu, setMenu] = useState(false)
+  const [menu, setMenu] = useState(false);
 
   const [productOne, setProductOne] = useState(true);
   const [productTwo, setProductTwo] = useState(false);
@@ -48,8 +48,7 @@ function App() {
 
   const openMenu = () => {
     menu ? setMenu(false) : setMenu(true);
-    
-  }
+  };
 
   return (
     <>
@@ -60,23 +59,26 @@ function App() {
           onBlack={onBlack}
         />
         <Navegation />
-        <MenuLateral menu={menu} onBlack={onBlack}/>
+        <MenuLateral menu={menu} onBlack={onBlack} />
       </nav>
 
       <main className={`${onBlack && "isActive"}`}>
         <SProducts onBlack={onBlack} />
-        <PrincipalProduct
-          onChangeProduct={onChangeProduct}
-          productOne={productOne}
-          productTwo={productTwo}
-          productThree={productThree}
-          productFour={productFour}
-          productFive={productFive}
-          onBlack={onBlack}
-        />
-        <Entrega onBlack={onBlack}/>
-        <Stock onBlack={onBlack}/>
-        <ProductosVendidos/>
+
+        <div>
+          <PrincipalProduct
+            onChangeProduct={onChangeProduct}
+            productOne={productOne}
+            productTwo={productTwo}
+            productThree={productThree}
+            productFour={productFour}
+            productFive={productFive}
+            onBlack={onBlack}
+          />
+        </div>
+        <Entrega onBlack={onBlack} />
+        <Stock onBlack={onBlack} />
+        <ProductosVendidos />
       </main>
     </>
   );

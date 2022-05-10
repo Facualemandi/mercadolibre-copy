@@ -2,7 +2,7 @@
   display: none;
   position: fixed;
   bottom: 1vh;
-  right: 1vh;
+  right: 3vh;
   padding: 2vh;
   border-radius: 100%;
   background-color: rgb(212, 212, 212);
@@ -14,8 +14,8 @@
 .icon_moon_open {
   display: none;
   position: fixed;
-  bottom: 1.5vh;
-  right: 7.5vh;
+  bottom: 1vh;
+  right: 10vh;
   padding: 2vh;
   border-radius: 100%;
   background-color: rgb(212, 212, 212);

@@ -1,9 +1,10 @@
 .stock_container {
   background-color: white;
   padding: 2vh;
+  display: none;
 }
 
-.text_stock_active{
+/* .text_stock_active{
  color: white;
 }
 
@@ -82,26 +83,15 @@
 
 .input_stock{
   color: black;
-}
+} */
 
 
 
 @media (min-width: 741px){
   .stock_container{
-      width: 145vh;
-      border-radius: 3px;
-      box-shadow: 1px 1px 3px 1px rgb(208, 208, 208);
-      margin: auto;
+      display: none;
   }
 
-  .stock_container .buttomAdd button:nth-child(1) {
-     width: 100vh;
-
-  }
-  .stock_container .buttomAdd button:nth-child(2) {
-     width: 100vh;
-
-  }
 }
 
 

@@ -1,199 +1,199 @@
-.PrincipalProduct{
-    background-color: white;
-    padding: 1.5vh;
-    border-radius: 3px;
+.PrincipalProduct {
+  background-color: white;
+  border-radius: 3px;
 }
-.principalProdcut-active{
-    background-color: rgb(32, 32, 32);
-    color: white;
-    box-shadow: 1px 1px 2px 1px white ;
-}
-
-.color_black.is-active{
-    color: black;
+.principalProdcut-active {
+  background-color: rgb(32, 32, 32);
+  color: white;
+  box-shadow: 1px 1px 2px 1px white;
 }
 
-.a-is-active{
-    color: white;
+.color_black.is-active {
+  color: black;
 }
 
-
-
-.newSold{
-     display: flex;
-     color: #75757e;
-     font-size: 12px;
-     font-family: sans-serif;
-     margin: 1px;
+.a-is-active {
+  color: white;
 }
 
-.newSold span{
-    margin: 3px;
+.newSold {
+  display: flex;
+  color: #75757e;
+  font-size: 12px;
+  font-family: sans-serif;
+  margin: 1px;
 }
 
-.description_principal_product{
-    font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 16px;
-    margin: 3px;
+.newSold span {
+  margin: 3px;
 }
 
-.icon_star{
-    width: 10px;
-    height: 10px;
-    color: blue;
+.description_principal_product {
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  margin: 3px;
 }
 
-.icon_container span:nth-child(2){
-    font-size: 12px;
-    font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
-    color: rgb(132, 132, 132);
+.icon_star {
+  width: 10px;
+  height: 10px;
+  color: blue;
 }
 
-.principalProduct{
-    width: 280px;
-    height: 280px;
-    display: flex;
-    margin: auto;
+.icon_container span:nth-child(2) {
+  font-size: 12px;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(132, 132, 132);
 }
 
-.secondProduct{
-    width: 280px;
-    height: 280px;
-    display: flex;
-    margin: auto;  
-}
-.threeProduct{
-    width: 280px;
-    height: 280px;
-    display: flex;
-    margin: auto;  
-}
-.fourProduct{
-    width: 280px;
-    height: 280px;
-    display: flex;
-    margin: auto;  
-}
-.fiveProduct{
-     width: 280px;
-    height: 280px;
-    display: flex;
-    margin: auto;  
+.principalProduct {
+  width: 280px;
+  height: 280px;
+  display: flex;
+  margin: auto;
 }
 
-.container_img_Principal{
+.secondProduct {
+  width: 280px;
+  height: 280px;
+  display: flex;
+  margin: auto;
+}
+.threeProduct {
+  width: 280px;
+  height: 280px;
+  display: flex;
+  margin: auto;
+}
+.fourProduct {
+  width: 280px;
+  height: 280px;
+  display: flex;
+  margin: auto;
+}
+.fiveProduct {
+  width: 280px;
+  height: 280px;
+  display: flex;
+  margin: auto;
+}
+
+.container_img_Principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.color_black {
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+}
+
+.container_colorAndimg {
+  border-radius: 10px;
+  background-color: rgb(237, 237, 237);
+  width: 45vh;
+  margin: 2vh auto;
+  padding: 2vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.shortProduct_principal {
+  width: 35px;
+  height: 35px;
+}
+
+.PrincipalProduct_price {
+  display: flex;
+  flex-direction: column;
+  margin: 1vh;
+}
+
+.PrincipalProduct_price span:nth-child(1) {
+  font-size: 32px;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+.PrincipalProduct_price span:nth-child(2) {
+  font-size: 18px;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+.PrincipalProduct_price a {
+  font-size: 14px;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.changePrincipalProduct {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(200, 200, 200);
+  background-color: rgb(210, 210, 210);
+  border-radius: 100%;
+  cursor: pointer;
+  color: grey;
+  margin-right: 2vh;
+}
+
+@media (min-width: 741px) {
+  .PrincipalProduct {
+    width: 126vh;
+    margin: 2vh auto;
+    box-shadow: 1px 1px 5px 1px rgb(216, 216, 216);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-}
+  }
 
-
-
-.color_black{
+  .principalProduct {
+    width: 450px;
+    height: 450px;
     display: flex;
-    flex-direction: column;
-    font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 16px;
-}
+    margin: auto;
+  }
 
-.container_colorAndimg{
-    border-radius: 10px;
-    background-color: rgb(237, 237, 237);
-    width: 45vh;
-    margin: 2vh auto;
-    padding: 2vh;
+  .secondProduct {
+    width: 450px;
+    height: 450px;
     display: flex;
-    justify-content: space-around;
+    margin: auto;
+  }
+  .threeProduct {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    margin: auto;
+  }
+  .fourProduct {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    margin: auto;
+  }
+  .fiveProduct {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    margin: auto;
+  }
+
+  .container_img_Principal {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-}
+  }
 
-.shortProduct_principal{
-    width: 35px;
-    height: 35px;
-}
-
-.PrincipalProduct_price{
-    display: flex;
-    flex-direction: column;
-    margin: 1vh;
-}
-
-.PrincipalProduct_price span:nth-child(1){
-    font-size: 32px;
-    font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
-}
-.PrincipalProduct_price span:nth-child(2){
-    font-size: 18px;
-    font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
-}
-.PrincipalProduct_price a{
-    font-size: 14px;
-    font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.changePrincipalProduct{
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid rgb(200, 200, 200);
-    background-color: rgb(210, 210, 210);
-    border-radius: 100%;
-    cursor: pointer;
-    color: grey;
-    margin-left: 3px;
-}
-
-
-
-
-
-@media (min-width: 741px){
-    .PrincipalProduct{
-        width: 145vh;
-        margin: 2vh auto;
-        box-shadow: 1px 1px 5px 1px rgb(216, 216, 216);
-    }
-
-
-    .principalProduct{
-        width: 450px;
-        height: 450px;
-        display: flex;
-        margin: auto;
-    }
-    
-    .secondProduct{
-        width: 450px;
-        height: 450px;
-        display: flex;
-        margin: auto;  
-    }
-    .threeProduct{
-        width: 450px;
-        height: 450px;
-        display: flex;
-        margin: auto;  
-    }
-    .fourProduct{
-        width: 450px;
-        height: 450px;
-        display: flex;
-        margin: auto;  
-    }
-    .fiveProduct{
-         width: 450px;
-        height: 450px;
-        display: flex;
-        margin: auto;  
-    }
-    
-    .container_img_Principal{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        
-    }
+  .newSold,
+  .changePrincipalProduct,
+  .PrincipalProduct_price,
+  .icon_container,
+  .description_principal_product,
+  .container_colorAndimg {
+  display: none;
+  }
 }

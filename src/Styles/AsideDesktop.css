@@ -1,0 +1,166 @@
+    .DESKTOP_ASIDE_CONTAINER{
+        border: 1px solid rgb(211, 211, 211);
+        border-radius: 5px;
+        padding: 2vh;
+        margin: 2vh;
+    }
+    
+    .desktop_vendidos{
+        display: flex;
+        color: grey;
+         font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        margin: 0.5vh;
+        margin-bottom: 1.5vh;
+    }
+    
+    .desktop_product{
+        display: flex;
+        align-items: center;
+    }
+    .desktop_product p{
+        width: 40vh;
+        font-size: 22px;
+        font-family:Helvetica ,Helvetica,Arial,sans-serif;
+        margin-bottom: 1.5vh;
+        width: 30vh;
+        font-weight: 400;
+    }
+    
+    
+    .desktop_icon_star{
+        width: 19px;
+        height: 15px;
+        color: rgb(57, 100, 227);
+    }
+    
+    .desktop_opiniones .desktop_p{
+        font-size: 13px;
+        color: grey;
+        font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .desktop_price{
+        font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+         margin-bottom: 1.5vh;
+         margin-top: 1.5vh;
+    }
+    .desktop_price_total{
+        font-size: 36px;
+         margin-bottom: 1.5vh;
+    }
+    .desktop_cuotas{
+        font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 19px;
+         margin-bottom: 1.5vh;
+    }
+    
+    .desktop_envio_gratis{
+        display: flex;
+        font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #00A650;
+        margin-bottom: 2vh;
+        margin-bottom: 1.5vh;
+        margin-top: 4vh;
+    
+    }
+    
+    .desktop_devolucion_gratis{
+        display: flex;
+        font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #00A650;
+        margin-bottom: 1.5vh;
+        margin-top: 4vh;
+    }
+    
+    .desktop_color_black{
+        font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+         margin-bottom: 1.5vh;
+    }
+    
+    .desktop_stock_container{
+        display: flex;
+        flex-direction: column;
+         margin-bottom: 1.5vh;
+    }
+    .desktop_texto_stock{
+        font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+         margin-bottom: 1.5vh;
+    }
+    
+    .desktop_container_input{
+        display: flex;
+        align-items: center;
+        border-radius: 6px;
+        background-color: #ebebeb;
+        width: 43vh;
+        padding: 1vh;
+        margin: auto;
+        font-size: 15px ;
+        font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+    }
+    
+    .desktop_container_input input{ 
+        height: 45px;
+        background-color: #ebebeb;
+        border: none;
+        text-align: end;
+    
+    }
+    
+    .desktop_buttons button:nth-child(1){
+        background-color: #3483fa;
+        color: white;
+        cursor: pointer;
+    }
+    .desktop_buttons button:nth-child(2){
+        background-color: #4189E626;
+        color: #3483fa;
+        cursor: pointer;
+    }
+    
+    .desktop_stock_container button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        width: 30vh;
+        margin: 2vh auto;
+        margin-top: 3vh;
+        padding: 2vh;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .totalDevoluciones{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .devolucion{
+        color: rgb(178, 178, 178);
+    }
+
+    @media (max-width:740px){
+        .DESKTOP_ASIDE_CONTAINER{
+            border: none;
+            padding: 0px;
+        }
+
+        .desktop_color_black{
+            margin-top: 3vh;
+        }
+
+        .desktop_product p{
+            width: 35vh;
+        }
+
+    }
+    
+    
+
+
+  
+

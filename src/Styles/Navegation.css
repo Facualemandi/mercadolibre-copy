@@ -11,10 +11,10 @@
 
 .section_container {
   width: 100vmax;
-  padding: 2vh;
   display: flex;
   justify-content: center;
   background-color: #fff159;
+  padding-bottom: 5px;
 }
 
 .section_container .section_fontawesome {
